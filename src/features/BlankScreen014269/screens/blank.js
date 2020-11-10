@@ -25,7 +25,11 @@ export default class Blank extends React.Component {
 
   state = {}
 
-  render = () => <View />
+  render = () => (
+    <View>
+      <Text>Sample text content</Text>
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
@@ -36,5 +40,7 @@ const styles = StyleSheet.create({
 
   View_1: {},
   Text_2: {},
-  View_1: {}
+  View_1: {},
+  View_1: {},
+  Text_2: {}
 })
